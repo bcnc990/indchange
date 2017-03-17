@@ -1,0 +1,64 @@
+/* http://bootsnipp.com/snippets/featured/rounded-pagination */
+.pagination > button {
+  border-radius: 50% !important;
+  margin: 0 5px;
+}
+
+.btn-narrate > button {
+  white-space: normal;
+  padding-top: 10px;
+  height: 100px;
+  width: 150px;
+  background-color: #DAA520;
+  font-weight: bold;
+}
+.btn-narrate {
+  padding-top: 80px;
+}
+span.glyphicon-chevron-down {
+  padding-top: 20px;
+  font-size: 2.5em;
+}
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: #fff;
+  /* background-color: #3c6478; */
+  background-image: url("viktor-kiryanov-111736.png");
+  margin-left: 10px;
+}
+
+#national, #explore_statesd {
+  height: 100vh;
+}
+
+footer {
+  font-size: 90%;
+  clear: both;
+  line-height: 1.5em;
+  font-family: Verdana, serif;
+  padding-top: 20px;
+  color: #ffffff;
+}
+
+.describe {
+  padding-left: 5px;
+  font-size: 0.95em;
+}
+/* div needs to be fixed for navigation to work when resizing window */
+#map_state {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.chart_chg, .chart {
+  height: 60vh;
+}
+
+.modal-dialog {
+  width: 900px;
+}
+#modal-distyr, #modal-disttime {
+  height: 70vh;
+  width: 425px;
+}
