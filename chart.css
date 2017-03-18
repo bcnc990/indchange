@@ -3,21 +3,24 @@
   border-radius: 50% !important;
   margin: 0 5px;
 }
-
+#schg {
+  padding-top: 10px;
+  height: 60vh;
+}
 .btn-narrate > button {
   white-space: normal;
-  padding-top: 10px;
   height: 100px;
   width: 150px;
   background-color: #DAA520;
   font-weight: bold;
 }
 .btn-narrate {
-  padding-top: 80px;
+  padding-top: 10px;
 }
 span.glyphicon-chevron-down {
   padding-top: 20px;
   font-size: 2.5em;
+  color: #fff;
 }
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -26,9 +29,9 @@ body {
   background-image: url("viktor-kiryanov-111736.png");
   margin-left: 10px;
 }
-
 #national, #explore_statesd {
   height: 100vh;
+  color: #fff;
 }
 
 footer {
