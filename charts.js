@@ -442,7 +442,7 @@ $(document).ready(function () {
 
       $("#b2").click(function () {
         $.each(natseries, function (itemno, item) {
-          if (item.name === "Educational services and public administration" || item.name === "Health care and social services" || item.name === "Professional, management, and administrative services") {
+          if (item.name === "Educational services" || item.name === "Health services" || item.name === "Administrative, leisure, food, and other services") {
             item.visible = true;
           } else {
             item.visible = false;
